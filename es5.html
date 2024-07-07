@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <img src="pizza.jpg" alt="pizza" style="max-width: 300px; height: auto;">
+        <h1>PIZZA ON-DEMAND</h1>
+    </header>
+    <main>
+        <p style="color: red;">costruisci la tua pizza con gli ingredienti e te la portiamo in un'ora</p>
+
+        <form action="">
+            <fieldset>
+                <legend>Le tue informazioni</legend>
+
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="lastName">Cognome:</label>
+                <input type="text" id="lastName" name="lastName"><br><br>
+
+                <label for="phone">Numero di telefono:</label>
+                <input type="text" id="phone" name="phone"><br><br>
+
+                <label for="directions">indicazioni per la consegna:</label><br>
+                <textarea placeholder="indicazioni per la consegna" id="directions" name="directions" rows="4" cols="150"></textarea><br>
+                <p>invia foto della zona per facilitare il fattorino(opzionale)</p>
+
+                <input type="file" id="image" name="image">
+            </fieldset>
+          </form>
+
+
+          <form action="">
+            <fieldset>
+                <legend><h2>Disegna la tua pizza</h2></legend>
+                    <fieldset>
+                        <legend>specifiche pizza</legend>
+                        <fieldset>
+                            <input type="radio" id="pizza1" name="pizza1" value="bianca" checked>
+                            <label for="pizza1">bianca</label><br>
+                            <input type="radio" id="pizza2" name="pizza2" value="rossa">
+                            <label for="pizza2">pizza rossa con mozzarella</label><br>  
+                            <input type="radio" id="pizza3" name="pizza3" value="gluten-free">
+                            <label for="pizza3">gluten-free</label><br><br>
+                        </textarea>
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>scegli l'ingrediediente</legend>
+                    <fieldset>
+                        <input type="checkbox" id="topping1" name="topping1" value="funghi" checked>
+                        <label for="topping">funghi</label><br>
+                        <input type="checkbox" id="topping2" name="topping2" value="tartufo" checked>
+                        <label for="topping">tartufo</label><br>
+                        <input type="checkbox" id="topping3" name="topping3" value="salsiccia">
+                        <label for="topping">salsiccia</label><br>
+                        <input type="checkbox" id="topping4" name="topping4" value="ananas">
+                        <label for="topping">ananas</label><br>
+                    </textarea>
+                </fieldset>
+            </fieldset>
+            </fieldset>
+          </form>
+    </main>
+    <footer>
+        <label for="arrival">orario di arrivo</label>
+        <input type="time" id="arrival" name="arrival"><br><br>
+
+        <label for="phone">numero di telefono</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        
+        <label for="email">inserire email per vedere il percorso del fattorino</label>
+        <input type="text" id="email" name="email"><br><br>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+
+header > h1 {
+    word-spacing: 0.2em;
+    color: olive;
+    text-shadow: 0px 0px 8px #a8a8a8;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+header > p{
+    color: gray;
+    font-style: italic;
+    text-align: center;
+}
+
+header > p > .emphasis{
+    font-style: normal;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+    color: olive;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+
+
+p {
+    margin: 0.5em 0;
+}
+
+p.subtitle {
+    font-style: italic;
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+    color: sienna
+}
+
+.price {
+    font-style: italic;
+    color: gray;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.new-item {
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    font-size: 0.8em;
+    color: orangered;
+    margin-top: 2em;
+}
+
+
